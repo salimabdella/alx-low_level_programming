@@ -8,7 +8,9 @@
 int main(void)
 {
 	int i;
-	i = 97; 
+
+	i = 97;
+
 	while (i < 123)
 	{
 		if (i != 101 && i != 113)
