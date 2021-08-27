@@ -18,7 +18,7 @@ int main(void)
 		}
 		else
 		{
-			putchar(i+39);
+			putchar(i + 39);
 		}
 		i++;
 	}
