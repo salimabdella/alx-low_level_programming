@@ -23,8 +23,15 @@ void print_alphabet_x10(void);
 int _islower(int c);
 
 /**
- * check if char ia alpha
+ * _isalpha: check if char ia alpha
  * Return:
  */
 int _isalpha(int c);
+
+/**
+ * print_sign: check the sign
+ * Return:
+ */
+int print_sign(int n);
+
 
