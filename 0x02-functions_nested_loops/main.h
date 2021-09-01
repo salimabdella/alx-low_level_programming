@@ -40,3 +40,8 @@ int print_sign(int n);
  */
 int _abs(int);
 
+/**
+ * print_time_table: prints the n times table, starting with 0.
+ * Return:
+ */
+void print_times_table(int n);
