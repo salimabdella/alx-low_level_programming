@@ -1,11 +1,11 @@
 /**
  * _putchar: wirte char to stdout
- * Return:
+ * Return: int
  */
 int _putchar(char c);
 
 /**
  * print_alphabet: print lowercase alphabet
- * Return:
+ * Return: void
  */
 void print_alphabet(void);

@@ -1,6 +1,9 @@
 #include "main.h"
 
-
+/**
+ * print_alphabet: print lowercase ascii letters
+ * Return: void
+ */
 void print_alphabet(void)
 {
 	int i;
