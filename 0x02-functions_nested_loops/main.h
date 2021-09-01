@@ -9,3 +9,9 @@ int _putchar(char c);
  * Return: void
  */
 void print_alphabet(void);
+
+/**
+ * print_alphabet_x10: print lowercase alpahbet 10x
+ * Return: void
+ */
+void print_alphabet_x10(void);
