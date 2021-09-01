@@ -17,7 +17,14 @@ void print_alphabet(void);
 void print_alphabet_x10(void);
 
 /**
- * check if the char is lower
+ * check if char is lower
  * Return: 0, 1
  */
 int _islower(int c);
+
+/**
+ * check if char ia alpha
+ * Return:
+ */
+int _isalpha(int c);
+
