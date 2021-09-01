@@ -34,4 +34,9 @@ int _isalpha(int c);
  */
 int print_sign(int n);
 
+/**
+ * _abs: absoulte value of an integer
+ * Return:
+ */
+int _abs(int);
 
