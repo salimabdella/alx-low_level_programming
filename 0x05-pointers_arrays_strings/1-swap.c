@@ -6,7 +6,8 @@
  *
  * Return: void
  */
-void swap_int(int *a, int *b) {
+void swap_int(int *a, int *b) 
+{
 	const int oldAVal = *a;
 	*a = *b;
 	*b = oldAVal;
