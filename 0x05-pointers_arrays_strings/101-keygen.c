@@ -1,0 +1,45 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+/**
+ * main - password generator
+ *
+ * Return: 0
+ */
+int main(void)
+{
+	int i;
+	int j;
+	int k;
+	int s;
+	char c[] = "!@#$%^&*()_+0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char p[58];
+
+	srand(time(NULL));
+	while (s != 2772)
+	{
+		i = k = s = 0;
+		while ((2772 - 122) > s)
+		{
+			j = rand() % 62;
+			p[i] = c[j];
+			s += c[j];
+			i++;
+		}
+		while (c[k])
+		{
+			if (c[k] == (2772 - s))
+			{
+				p[i] = c[k];
+				s += c[k];
+				i++;
+				break;
+			}
+			k++;
+		}
+	}
+	p[i] = '\0';
+	printf("%s", p);
+	return (0);
+}
