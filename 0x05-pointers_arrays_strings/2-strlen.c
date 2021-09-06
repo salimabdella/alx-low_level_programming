@@ -9,7 +9,8 @@ int _strlen(char *s)
 {
 	const char *str;
 
-	for (str = s; *str; ++str);
+	for (str = s; *str; ++str)
+		;
 
 	return (str - s);
 }
