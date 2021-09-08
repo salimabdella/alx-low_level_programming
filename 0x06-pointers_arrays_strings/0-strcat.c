@@ -10,8 +10,7 @@
 
 char *_strcat(char *dest, char *src)
 {
-	const char *destIndexCopy = dest;
-
+	const char *destFirstIndex = dest;
 	for (; *dest; ++dest)
 		;
 	for (; *src; ++src)
@@ -19,5 +18,5 @@ char *_strcat(char *dest, char *src)
 		*(dest++) = *src;
 	}
 
-	return (char *) destIndexCopy;
+	return ((char *) destFirstIndex);
 }
