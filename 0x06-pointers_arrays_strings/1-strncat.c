@@ -1,6 +1,5 @@
 #include "main.h"
 #include <string.h>
-#include <stdio.h>
 /**
  * _strncat - string concat
  * Description: concatenates two strings starting from n
