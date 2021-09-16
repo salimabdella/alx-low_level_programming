@@ -1,12 +1,11 @@
 #include "main.h"
 /**
- * sqrt_check - checks for the square root of c
- * @g:guess at sqrt
- * @c: number to find sqrt of
- *
- * Return: -1 or sqrt of c
+ * check - sqrt checker
+ * @g: g
+ * @c: find
+ * Return: int
  */
-int sqrt_check(int g, int c)
+int check(int g, int c)
 {
 	if (g * g == c)
 		return (g);
@@ -24,5 +23,5 @@ int _sqrt_recursion(int n)
 {
 	if (n == 0)
 		return (0);
-	return (sqrt_check(1, n));
-}i
+	return (check(1, n));
+}
