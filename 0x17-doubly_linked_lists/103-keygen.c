@@ -10,10 +10,13 @@ int f4(const char*, int);
 int f5(const char*, int);
 int f6(void);
 
+
 /**
- * main - entry
+ * main - crackme5 keygen generator
+ * @argc: number of arguments passed
+ * @argv: arguments passed to main
  *
- * Return: -1, 0
+ * Return: 0 on success, -1 on error
  */
 int main(int argc, char** argv[])
 {
